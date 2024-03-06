@@ -1,0 +1,31 @@
+.list {
+  height: 480px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.content-item {
+  background: var(--field-color);
+  border-radius: var(--field-border-radius);
+  text-align: center;
+  line-height: var(--field-height);
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  transition: background-color 0.3s;
+}
+
+.content-item:hover {
+  background-color: #5d68e2;
+}
+
+
+.content-item:active {
+  transform: translateY(-3%);
+}
+
+.copy {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -108%);
+}

@@ -1,0 +1,78 @@
+body {
+  color: #fff;
+}
+
+.theme {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.theme-button {
+  display: block;
+  background-color: #5d68e2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 53px auto;
+}
+
+.fixed-width {
+  width: 150px;
+  /* Adjust the width as needed */
+}
+
+.dimgray:hover {
+  background: rgb(82, 79, 79);
+}
+
+.tealblue:hover {
+  background: rgb(8, 108, 126);
+}
+
+.saddlebrown:hover {
+  background: rgb(126, 79, 8);
+}
+
+.mediumblue:hover {
+  background: rgb(60, 47, 201);
+}
+
+.default:hover {
+  background: #0a0e31;
+}
+
+
+.container {
+  margin: 40px 0;
+  width: 400px;
+  height: 600px;
+  padding: 10px 25px;
+  background: #0a0e31;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
+  font-family: "Montserrat";
+  border-radius: 5%;
+}
+
+.container.dimgray-theme {
+  background: rgb(82, 79, 79);
+}
+
+.container.tealblue-theme {
+  background: rgb(8, 108, 126);
+}
+
+.container.saddlebrown-theme {
+  background: rgb(126, 79, 8);
+}
+
+.container.mediumblue-theme {
+  background: rgb(60, 47, 201);
+}
+
+.container.default-theme {
+  background: #0a0e31;
+}
