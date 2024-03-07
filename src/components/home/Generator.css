@@ -196,3 +196,11 @@ button {
 .favorite:hover {
   background-color: #5d68e2;
 }
+
+@media (max-width: 768px) {
+  .favorite {
+    position: static;
+    top: 5px; 
+    margin-left: 30px;
+  }
+}
